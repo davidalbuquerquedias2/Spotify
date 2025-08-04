@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+}
+
+/* parte inicial */
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.principal-imagem img {
+    max-width: 300px;
+    height: auto;
+}
+
+#bt-hero {
+    background-color: #1DB954;
+    font-size: 3vh;
+    padding: 12px 24px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+#bt-hero:hover {
+    background-color: white;
+    color: black;
+
+}
+
+#sua-musica {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#sub {
+    font-size: 18px;
+
+
+}
+
+/* Parte  2 */
+
+.como-funciona {
+    text-align: center;
+    padding: 50px 20px;
+
+}
+
+.colunas {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+
+.coluna {
+    max-width: 300px;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.coluna img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.planos{
+    text-align: center;
+}
+
+.plano{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+
+}
