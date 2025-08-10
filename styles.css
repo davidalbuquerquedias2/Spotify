@@ -75,14 +75,53 @@
     margin-bottom: 10px;
 }
 
-.planos{
+.planos {
     text-align: center;
 }
 
-.plano{
+.plano {
     display: flex;
     justify-content: center;
     padding: 50px;
     gap: 50px;
 
+}
+
+.card-plano {
+    background-color: #0df85fbe;
+    padding: 14px;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 20px;
+}
+
+.premium {
+    font-size: 20px;
+}
+
+.paragrafo {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.btn-assinar {
+    margin-top: 1rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    color: black;
+    cursor: pointer;
+    transition: all 0.8s;
+
+}
+
+.btn-assinar:hover {
+    transform: scale(1.05);
+    background-color: rgb(255, 255, 255);
+}
+
+button:active {
+  transform: scale(0.98); /* leve "afundada" ao clicar */
 }
