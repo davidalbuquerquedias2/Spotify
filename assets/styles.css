@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* parte inicial */
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.principal-imagem img {
+    max-width: 270px;
+    height: auto;
+}
+
+#bt-hero {
+    background-color: #1DB954;
+    font-size: 3vh;
+    padding: 12px 24px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+#bt-hero:hover {
+    background-color: white;
+    color: black;
+
+}
+
+#sua-musica {
+    font-size: 50px;
+    margin-bottom: 10px;
+
+
+}
+
+#sub {
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+
+
+
+}
+
+/* Parte  2 */
+
+.como-funciona {
+    text-align: center;
+    padding: 50px 20px;
+
+}
+
+.colunas {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    font-family: "Nunito", sans-serif;
+
+}
+
+.coluna {
+    max-width: 300px;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.coluna img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.planos {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}
+
+.plano {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+
+}
+
+.card-plano {
+    background-color: #0df85fbe;
+    padding: 14px;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 20px;
+}
+
+.premium {
+    font-size: 20px;
+}
+
+.paragrafo {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.btn-assinar {
+    margin-top: 1rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    color: black;
+    cursor: pointer;
+    transition: all 0.8s;
+
+}
+
+.btn-assinar:hover {
+    transform: scale(1.05);
+    background-color: rgb(255, 255, 255);
+}
+
+button:active {
+    transform: scale(0.98);
+}
